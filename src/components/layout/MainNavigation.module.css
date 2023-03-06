@@ -1,0 +1,36 @@
+.header{    
+    border-bottom: 1px solid white;    
+    height: 80px;
+    width:100vw;    
+    display: flex;        
+}
+
+
+.navBar{
+  display: flex;
+  align-items: center;
+  width:92vw;
+  padding-inline: 10px;
+}
+.logo{
+    margin-right: auto;
+    background: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: #B09579;
+}
+
+.menu{
+    display: flex;
+    gap:5px;
+    margin-right:35px;
+}
+
+.contactUs{    
+    border-left: 1px solid white; 
+    width:8vw;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
